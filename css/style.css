@@ -419,14 +419,17 @@ h2, h1 {
           justify-content: center;
   margin: 0 8px 0 0;
 }
-.vote-item:hover {
-  color: #9DA9B6;
-}
 
+.like-item:hover {
+  color: #2788FF;
+}
 .like-item:hover .svg-icon {
   stroke: #2788FF;
 }
 
+.dislike-item:hover {
+  color: #E63821;
+}
 .dislike-item:hover .svg-icon {
   stroke: #E63821;
 }

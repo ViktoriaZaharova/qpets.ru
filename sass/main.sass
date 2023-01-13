@@ -70,12 +70,11 @@
 	border-radius: 14px
 	padding: 24px 30px
 	font-size: 14px
-	border: 1px solid #fff
 	transition: .3s ease
 	&:last-child
 		margin: 0
 	&:hover
-		border-color: $accent
+		box-shadow: 0 0 10px rgba(#1A1C1E, .2)
 	&__head
 		width: 100%
 		display: flex
@@ -96,7 +95,7 @@
 		flex-wrap: wrap
 
 .question-box-info
-	display: flex
+	display: flex 
 	align-items: center
 	flex-wrap: wrap
 	color: #9DA9B6
@@ -207,6 +206,9 @@
 			margin: 0 auto 0 40px
 	.question-box-author
 		align-items: flex-start
+
+.answer-box-static
+	border: 1px solid $accent		
 
 .agree-wrapper
 	margin: 16px 0 0

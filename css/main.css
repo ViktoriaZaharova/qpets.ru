@@ -83,7 +83,6 @@
   border-radius: 14px;
   padding: 24px 30px;
   font-size: 14px;
-  border: 1px solid #fff;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -91,7 +90,8 @@
   margin: 0;
 }
 .question-box:hover {
-  border-color: #2788FF;
+  -webkit-box-shadow: 0 0 10px rgba(26, 28, 30, 0.2);
+          box-shadow: 0 0 10px rgba(26, 28, 30, 0.2);
 }
 .question-box__head {
   width: 100%;
@@ -300,6 +300,10 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.answer-box-static {
+  border: 1px solid #2788FF;
 }
 
 .agree-wrapper {
