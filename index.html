@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/slick.css"> -->
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center">
+					<a href="index.html" class="logo">
+						<span class="logo-name">Qpets.ru</span>
+						<span class="logo-description">Помощь с ушастыми и пушистыми</span>
+					</a>
+					<nav class="nav-menu">
+						<div class="nav-menu__close"></div>
+						<ul class="menu my-ul">
+							<li><a href="index.html" class="active">Вопрос и ответ</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="help.html">Помощь от ветеринара</a></li>
+						</ul>
+					</nav>
+
+					<a href="#" class="btn btn-accent" data-bs-toggle="modal" data-bs-target="#callbackModal">
+						<span class="btn-icon"><svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#tg"></use>
+							</svg>
+						</span>
+						<span class="btn-text">Ветеринар помощь</span>
+					</a>
+
+					<div class="btn-burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="home mb-32">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="home-banner">
+						<div class="home-banner__content">
+							<div class="name-company">Qpets.ru</div>
+							<div class="home-banner__title">Вопросы <br>
+								по ушастикам</div>
+							<div class="box-text">
+								<p>Здесь найдется ответ на любой вопрос</p>
+							</div>
+						</div>
+						<div class="home-banner__image"><img src="img/banner-image.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<section class="question">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Вопрос и ответ</h2>
+				</div>
+				<div class="col-12">
+					<ul class="list-sorting my-ul">
+						<li><a href="#" class="active btn">Все вопросы</a></li>
+						<li><a href="#" class="btn">С ответами</a></li>
+						<li><a href="#" class="btn">Без ответов</a></li>
+					</ul>
+				</div>
+
+				<div class="col-12 question-wrapper">
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo1.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Анатолий</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>253</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 253</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>10.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">103 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo2.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Иван</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>4 215</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 4 215</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>09.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									11
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">46 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo3.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Вероника</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>83</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 83</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>09.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">11 ответов</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo4.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Степан</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>411</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 411</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">63 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo5.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Олег</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>905</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 905</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">103 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo6.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Александра</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>70</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 70</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">46 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo7.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Михаил</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>26</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 26</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">11 ответов</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo8.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Ксения</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>608</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 608</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>07.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">63 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo9.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Роман</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>253</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 253</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>07.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">103 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo10.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Евгений</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>3 044</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 3 044</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>07.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">46 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo1.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Анатолий</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>253</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 253</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>10.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">103 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo2.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Иван</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>4 215</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 4 215</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>09.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									11
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">46 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo3.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Вероника</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>83</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 83</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>09.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">11 ответов</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo4.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Степан</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>411</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 411</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">63 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo5.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Олег</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>905</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 905</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">103 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="question-box">
+						<div class="question-box__head">
+							<div class="question-box-author">
+								<div class="question-box-author__photo"><img src="img/photo6.jpg" alt=""></div>
+								<div class="question-box-author__wrap">
+									<div class="question-box-author__name">Александра</div>
+									<div class="rating-box tooltip-wrapper">
+										<div class="rating-box__value">
+											<svg class="svg-icon">
+												<use xlink:href="img/sprite.svg#rating"></use>
+											</svg>
+											<span>70</span>
+										</div>
+										<div class="tooltip-box">
+											<p>Рейтинг пользователя 70</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<ul class="question-box-info my-ul">
+								<li>08.01.2023</li>
+								<li>
+									<svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#view"></use>
+									</svg>
+									6,4К
+								</li>
+							</ul>
+						</div>
+						<div class="question-box__body">
+							<div class="question-box__title">Привет! Подскажите пожалуйста, в банкоматах каких банков можно снять
+								наличные с русской карты Юнион пэй в Сеуле?</div>
+						</div>
+						<div class="question-box__footer">
+							<ul class="question-box-info my-ul">
+								<li><a href="answer.html" class="color-grey">46 ответа</a></li>
+							</ul>
+							<div class="question-box-status color-accent">
+								<div class="question-box-status__icon"><svg class="svg-icon">
+										<use xlink:href="img/sprite.svg#checked"></use>
+									</svg></div>
+								<div class="question-box-status__text">Вопрос решен</div>
+							</div>
+						</div>
+					</div>
+
+
+					<a href="#" class="btn btn-border-accent btn-load">Показать еще</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-5 col-lg-6">
+						<a href="index.html" class="logo">
+							<span class="logo-name">Qpets.ru</span>
+							<span class="logo-description">Помощь с ушастыми и пушистыми</span>
+						</a>
+					</div>
+
+					<div class="col-12 col-md-7 col-lg-6 d-flex align-items-center flex-wrap">
+						<a href="mailto:pochta.qpets@gmail.com" class="mail">pochta.qpets@gmail.com</a>
+						<a href="#" class="btn btn-accent" data-bs-toggle="modal" data-bs-target="#callbackModal">
+							<span class="btn-icon"><svg class="svg-icon">
+									<use xlink:href="img/sprite.svg#tg"></use>
+								</svg>
+							</span>
+							<span class="btn-text">Ветеринар помощь</span>
+						</a>
+					</div>
+
+					<div class="col-12">
+						<nav class="nav-menu">
+						<ul class="menu my-ul">
+							<li><a href="index.html">Вопрос и ответ</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="help.html">Помощь от ветеринара</a></li>
+						</ul>
+						</nav>
+
+						<div class="box-text">
+							<p>При цитировании материалов qpets.ru ссылка на сайт обязательна.</p>
+							<p>Используя данный веб-сайт, Вы соглашаетесь с тем, что мы сохраняем и используем cookies на Вашем
+								устройстве.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex align-items-center flex-wrap">
+						<div class="copyright">© 2009-2023 qpets.ru.</div>
+
+						<a href="#" class="color-grey link-modal" data-bs-toggle="modal" data-bs-target="#cookiesModal">Политика
+							cookies</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Modal -->
+	<div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- <script src="js/slick.min.js"></script> -->
+	<!-- <script src="js/jquery.maskedinput.min.js"></script> -->
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>
