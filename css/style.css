@@ -85,27 +85,27 @@ input, textarea, select {
           box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   border: none;
-  border-radius: 10px;
+  border-radius: 14px;
   width: 100%;
   height: 54px;
-  background: transparent;
-  color: #000;
-  font-size: 15px;
+  background: #fff;
+  color: #1A1C1E;
+  font-size: 14px;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder {
-  color: #595959;
+  color: #9DA9B6;
 }
 input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {
-  color: #595959;
+  color: #9DA9B6;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder {
-  color: #595959;
+  color: #9DA9B6;
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder, select::-ms-input-placeholder {
-  color: #595959;
+  color: #9DA9B6;
 }
 input::placeholder, textarea::placeholder, select::placeholder {
-  color: #595959;
+  color: #9DA9B6;
 }
 input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:focus {
   outline: none;
@@ -116,7 +116,7 @@ input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:f
 label {
   display: block;
   width: 100%;
-  margin: 0 0 13px;
+  margin: 0 0 16px;
 }
 label:last-child {
   margin: 0;
@@ -124,8 +124,12 @@ label:last-child {
 
 textarea {
   resize: none;
-  padding: 12px 17px;
-  height: 103px;
+  padding: 15px;
+  height: 163px;
+}
+textarea:disabled {
+  text-align: center;
+  padding: 70px 15px;
 }
 
 button, .btn {
@@ -166,6 +170,12 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   transition: 0.3s ease;
 }
 
+.btn-md {
+  height: 53px;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
 .btn-accent {
   background: #2788FF;
   color: #fff;
@@ -179,6 +189,10 @@ button:hover, button:focus, .btn:hover, .btn:focus {
 }
 .btn-accent:hover .btn-icon {
   fill: #fff;
+}
+.btn-accent:disabled {
+  background: #E9EFF5;
+  color: #9DA9B6;
 }
 
 .btn-border-accent {
@@ -260,6 +274,15 @@ a.color-grey:hover {
   color: #2788FF;
 }
 
+.d-inline {
+  display: inline;
+}
+
+.border-dashed {
+  border-bottom: 1px dashed #2788FF;
+  padding: 0 0 2px;
+}
+
 .container {
   max-width: 1170px;
 }
@@ -310,4 +333,100 @@ h2, h1 {
   background-size: 100%;
   width: 23px;
   height: 18px;
+}
+
+.scroll-vertical {
+  overflow-y: auto;
+  max-height: 744px;
+  padding: 0 47px 0 0;
+}
+.scroll-vertical::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border-radius: 8px;
+}
+.scroll-vertical::-webkit-scrollbar-track {
+  background-color: #2788FF;
+  border-radius: 8px;
+}
+.scroll-vertical::-webkit-scrollbar-track-piece {
+  background-color: #F4F7FC;
+  border-radius: 8px;
+}
+.scroll-vertical::-webkit-scrollbar-thumb {
+  background-color: #2788FF;
+  border-radius: 8px;
+}
+.scroll-vertical::-webkit-scrollbar-corner {
+  background-color: #F4F7FC;
+  border-radius: 8px;
+}
+.scroll-vertical::-webkit-resizer {
+  background-color: #2788FF;
+  border-radius: 8px;
+}
+
+.link-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+.link-page__icon {
+  fill: none;
+  stroke: #2788FF;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 8px 0 0;
+}
+.link-page:hover .link-page__icon {
+  stroke: #1172EA;
+}
+
+.vote-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9DA9B6;
+  font-size: 14px;
+}
+.vote-item .svg-icon {
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 8px 0 0;
+}
+.vote-item:hover {
+  color: #9DA9B6;
+}
+
+.like-item:hover .svg-icon {
+  stroke: #2788FF;
+}
+
+.dislike-item:hover .svg-icon {
+  stroke: #E63821;
 }

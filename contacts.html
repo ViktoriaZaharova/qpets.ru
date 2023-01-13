@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Qpets.ru - помощь с ушастыми и пушистыми</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex align-items-center">
+					<a href="index.html" class="logo">
+						<span class="logo-name">Qpets.ru</span>
+						<span class="logo-description">Помощь с ушастыми и пушистыми</span>
+					</a>
+					<nav class="nav-menu">
+						<div class="nav-menu__close"></div>
+						<ul class="menu my-ul">
+							<li><a href="index.html">Вопрос и ответ</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="#" data-bs-toggle="modal" data-bs-target="#callbackModal">Помощь от ветеринара</a></li>
+						</ul>
+
+						<a href="#" class="btn btn-md btn-accent" data-bs-toggle="modal" data-bs-target="#callbackModal">
+							<span class="btn-icon"><svg class="svg-icon">
+									<use xlink:href="img/sprite.svg#tg"></use>
+								</svg>
+							</span>
+							<span class="btn-text">Ветеринар помощь</span>
+						</a>
+					</nav>
+
+					<a href="#" class="btn btn-md btn-accent" data-bs-toggle="modal" data-bs-target="#callbackModal">
+						<span class="btn-icon"><svg class="svg-icon">
+								<use xlink:href="img/sprite.svg#tg"></use>
+							</svg>
+						</span>
+						<span class="btn-text">Ветеринар помощь</span>
+					</a>
+
+					<div class="btn-burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="home home-contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>Контакты</h1>
+				</div>
+				<div class="col-12">
+					<div class="home-banner mb-32">
+						<div class="home-banner__content">
+							<div class="home-banner__title">Вопросы <br>
+								по ушастикам</div>
+							<div class="box-text">
+								<p>Здесь найдется ответ на любой вопрос</p>
+							</div>
+						</div>
+						<div class="home-banner__image"><img src="img/contacts-banner.png" alt=""></div>
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div class="contacts-box">
+						<p>Электронная почта</p>
+						<a href="mailto:support@qpets.ru">support@qpets.ru</a>
+					</div>
+
+					<div class="contacts-box">
+						<p>Telegram</p>
+						<a href="tg://resolve?domain=@qpets">@qpets</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-5 col-lg-6">
+						<a href="index.html" class="logo">
+							<span class="logo-name">Qpets.ru</span>
+							<span class="logo-description">Помощь с ушастыми и пушистыми</span>
+						</a>
+					</div>
+
+					<div class="col-12 col-md-7 col-lg-6 d-flex align-items-center flex-wrap">
+						<a href="mailto:pochta.qpets@gmail.com" class="mail">pochta.qpets@gmail.com</a>
+						<a href="#" class="btn btn-md btn-accent" data-bs-toggle="modal" data-bs-target="#callbackModal">
+							<span class="btn-icon"><svg class="svg-icon">
+									<use xlink:href="img/sprite.svg#tg"></use>
+								</svg>
+							</span>
+							<span class="btn-text">Ветеринар помощь</span>
+						</a>
+					</div>
+
+					<div class="col-12">
+						<nav class="nav-menu">
+							<ul class="menu my-ul">
+								<li><a href="answer.html">Вопрос и ответ</a></li>
+								<li><a href="contacts.html">Контакты</a></li>
+								<li><a href="#" data-bs-toggle="modal" data-bs-target="#callbackModal">Помощь от ветеринара</a></li>
+							</ul>
+						</nav>
+
+						<div class="box-text">
+							<p>При цитировании материалов qpets.ru ссылка на сайт обязательна.</p>
+							<p>Используя данный веб-сайт, Вы соглашаетесь с тем, что мы сохраняем и используем cookies на Вашем
+								устройстве.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex align-items-center flex-wrap">
+						<div class="copyright">© 2009-2023 qpets.ru.</div>
+
+						<a href="#" class="color-grey link-modal" data-bs-toggle="modal" data-bs-target="#cookiesModal">Политика
+							cookies</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Modal -->
+	<div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-icon">
+						<use xlink:href="img/sprite.svg#close"></use>
+					</svg></button>
+
+				<div class="modal-body">
+
+					<div class="modal-body__text">
+						<div class="modal-title">Мы всегда на связи!</div>
+						<div class="modal-subtitle">Не смогли найти ответ на ваш вопрос?
+						</div>
+						<div class="box-text">
+							<p>Обратитесь в телеграмм бот с ветеринарами по всей России, вам обязательно помогут!</p>
+						</div>
+						<a href="tg://resolve?domain=@qpets" class="btn btn-md btn-accent">
+							<span class="btn-icon"><svg class="svg-icon">
+									<use xlink:href="img/sprite.svg#tg"></use>
+								</svg>
+							</span>
+							<span class="btn-text">Перейти в телеграмм</span>
+						</a>
+					</div>
+					<div class="modal-image"><img src="img/modal-image.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="cookiesModal" tabindex="-1" aria-labelledby="cookiesModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><svg class="svg-icon">
+						<use xlink:href="img/sprite.svg#close"></use>
+					</svg></button>
+				<div class="modal-body">
+					<div class="politics-text scroll-vertical">
+						<div class="modal-title">Политика cookies</div>
+						<p>Настоящий веб-сайт использует так называемые файлы сookies. Файлы cookies — это небольшие файлы, которые
+							загружаются на
+							ваш компьютер и помогают обеспечить нормальное и безопасное функционирование веб-сайта. Они позволяют
+							собирать
+							информацию о продуктах, которыми интересуются посетители сайта, а также учитывают использованную при
+							посещении
+							навигацию. Это делается для того, чтобы сделать наши онлайн-предложения более выгодными для пользователей.
+						</p>
+
+						<p>Компания Bayer соблюдает права на неприкосновенность частной жизни посетителей веб-сайта и признает
+							важность защиты их
+							персональных данных. Анализ информации с веб сайта получается на анонимной основе.
+							При посещении данного веб-сайта интернет-браузер каждого посетителя передает на сервер компании Bayer
+							определенные
+							сведения: дату и время посещения, тип браузера, языковые настройки, операционную систему. Информация о
+							том, каким
+							образом используется сайт, не будет привязываться к полному IP-адресу. На нашем сайте активирована функция
+							анонимизации
+							IP, предложенная компанией Google, поэтому последние 8 цифр (тип IPv4) или последние 80 бит (тип IPv6)
+							вашего IP-адреса
+							удаляются. Данные сведения сохраняются в журналах подключений в течение ограниченного времени для
+							обеспечения
+							безопасности и надлежащей работы веб-сайта, а также для сбора статистической информации.</p>
+
+						<p>Мы используем две категории файлов cookies: (1) файлы cookies, необходимые в технических целях, без
+							которых
+							функциональность нашего сайта значительно снизится, и (2) optional cookies.</p>
+
+						<div class="modal-subtitle">Веб-анализ</div>
+
+						<p>Наш веб-сайт использует Google Analytics — сервис анализа сайтов от компании Google Inc., 1600 Амфитеатр
+							Парквэй,
+							Маунтин-Вью, штат Калифорния, 94043, Соединенные Штаты Америки (Google). На основании данного вами
+							предварительного
+							согласия, Google будет анализировать от нашего имени то, каким образом вы используете веб-сайт.</p>
+
+						<p>Вы можете в любое время отключить файлы cookies или настроить ваш веб-обозреватель для предупреждения о
+							получении таких
+							файлов. Для того, чтобы это сделать, пожалуйста, выберите желаемый вариант в таблице Optional Cookies.
+							Однако если файлы
+							cookies будут выключены, вы не сможете пользоваться всеми функциями данного веб-сайта.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

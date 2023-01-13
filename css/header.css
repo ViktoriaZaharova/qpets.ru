@@ -2,11 +2,6 @@
 header {
   padding: 16px 0 32px;
 }
-header .btn {
-  height: auto;
-  padding: 15px 28px;
-  font-size: 16px;
-}
 
 .logo {
   display: -webkit-box;
@@ -51,6 +46,7 @@ header .btn {
 }
 .nav-menu .btn {
   display: none;
+  margin: 20px 0 0;
 }
 .nav-menu__close {
   display: none;

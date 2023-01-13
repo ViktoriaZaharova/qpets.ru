@@ -24,10 +24,6 @@
     background: #F4F7FC;
     padding: 30px 20px;
   }
-  header .btn {
-    padding: 14px 20px;
-    font-size: 14px;
-  }
   header .menu li {
     width: 100%;
     margin: 0 0 10px;
@@ -51,12 +47,19 @@
   .home-banner__image {
     max-width: 310px;
   }
-  footer .btn {
-    padding: 10px 20px;
+  .btn-md {
+    padding: 14px 20px;
     font-size: 14px;
+    height: 48px;
   }
   .mail {
     margin: 0 20px 0 auto;
+  }
+  .answer-box .question-box-author {
+    max-width: none;
+  }
+  .answer-box .question-box__head .question-box-info {
+    margin: 10px 0 0;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -85,6 +88,27 @@
   }
   footer .logo {
     margin: 0 0 20px;
+  }
+  .modal-title {
+    font-size: 26px;
+  }
+  .modal-body__text {
+    padding: 0 0 0 40px;
+  }
+  .modal-subtitle {
+    font-size: 18px;
+  }
+  .modal-content {
+    padding: 40px 30px;
+  }
+  .home-contacts .home-banner__image {
+    max-width: 280px;
+  }
+  .contacts-box a {
+    font-size: 50px;
+  }
+  .question-box-home .question-box__title {
+    font-size: 24px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -117,7 +141,7 @@
     font-size: 11px;
     max-width: 112px;
   }
-  header .btn {
+  .btn-md {
     padding: 10px 16px;
     font-size: 12px;
   }
@@ -159,6 +183,64 @@
   }
   .footer-top, .footer-bottom {
     padding: 20px 0;
+  }
+  .modal-image {
+    max-width: none;
+    position: relative;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: calc(100% + 40px);
+    margin: 20px -20px -30px;
+    border-radius: 0 0 14px 14px;
+  }
+  .modal-image img {
+    min-width: auto;
+  }
+  .modal-body__text {
+    padding: 0;
+    width: 100%;
+  }
+  .modal-body__text .btn {
+    margin: 20px auto 0;
+  }
+  .modal-content {
+    padding: 30px 20px;
+  }
+  .scroll-vertical {
+    padding: 0 10px 0 0;
+    max-height: 500px;
+  }
+  .politics-text p {
+    margin: 0 0 20px;
+  }
+  .politics-text .modal-title {
+    margin: 0 0 20px;
+  }
+  .politics-text .modal-subtitle {
+    margin: 20px 0 10px;
+  }
+  #cookiesModal .modal-content {
+    padding-right: 15px;
+  }
+  .contacts-box {
+    margin: 0 0 24px;
+  }
+  .contacts-box:last-child {
+    margin: 0;
+  }
+  .contacts-box a {
+    font-size: 30px;
+  }
+  .question-box-home .question-box__title {
+    font-size: 16px;
+  }
+  .answer-box .question-box__footer .question-box-status {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .blockquote-answer {
+    padding: 16px;
   }
 }
 @media only screen and (max-width: 480px) {

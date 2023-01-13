@@ -9,10 +9,7 @@ footer
 	.box-text
 		font-size: 14px
 		color: #9DA9B6
-	.btn
-		font-size: 16px
-		padding: 14px 28px
-		height: 53px
+
 
 .footer-top
 	padding: 24px 0
@@ -33,3 +30,99 @@ footer
 .copyright
 	margin: 0 auto 0 0
 // footer end	
+
+// modal	
+.modal-dialog
+	max-width: 966px
+
+.modal-content
+	border: none
+	border-radius: 14px
+	background: #fff
+	padding: 40px	
+	position: relative
+	.btn-close
+		position: absolute
+		padding: 0
+		margin: 0
+		z-index: 1
+		opacity: 1
+		width: 24px
+		height: 24px
+		fill: none
+		stroke: #1A1C1E
+		top: 16px
+		right: 16px
+		background: transparent
+		border: none
+		border-radius: 0
+		box-sizing: border-box
+
+.modal-body, .modal-header
+	padding: 0
+	border: none
+	border-radius: 0
+
+.modal-body
+	position: initial	
+			
+.modal-image
+	position: absolute
+	left: 0
+	top: 0
+	height: 100%
+	width: 261px
+	background: #2788FF
+	border-radius: 14px 0px 0px 14px
+	display: flex
+	align-items: flex-end
+	justify-content: center
+	img
+		min-width: 319px
+		margin: 0 auto
+
+.modal-title
+	font-size: 40px
+	font-weight: bold
+	width: 100%
+	margin: 0 0 16px
+
+.modal-subtitle
+	margin: 0 0 8px
+	font-size: 20px
+	font-weight: bold
+	width: 100%
+
+.modal-body__text
+	padding: 0 0 0 63px
+	width: calc(100% - 221px)		
+	margin: 0 0 0 auto
+	.btn
+		margin: 32px 0 0
+
+.modal-backdrop
+	background: #1A1C1E
+	&.show
+		opacity: 0.4				
+
+#callbackModal
+	.modal-dialog
+		max-width: 784px
+
+.politics-text
+	line-height: 140%
+	.modal-title
+		margin: 0 0 32px
+		line-height: normal
+	p
+		margin: 0 0 24px
+		&:last-child
+			margin: 0
+	.modal-subtitle
+		margin: 32px 0 24px
+
+#cookiesModal
+	.modal-content
+		padding-right: 25px		
+
+// modal end	
